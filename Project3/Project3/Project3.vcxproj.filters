@@ -5,18 +5,80 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Programacio II">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="p2Log.cpp">
+      <Filter>Programacio II</Filter>
+    </ClCompile>
+    <ClCompile Include="p2String.cpp">
+      <Filter>Programacio II</Filter>
+    </ClCompile>
+    <ClCompile Include="p2Vector2.cpp">
+      <Filter>Programacio II</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="p2Assert.h">
+      <Filter>Programacio II</Filter>
+    </ClInclude>
+    <ClInclude Include="p2Circle.h">
+      <Filter>Programacio II</Filter>
+    </ClInclude>
+    <ClInclude Include="p2Defs.h">
+      <Filter>Programacio II</Filter>
+    </ClInclude>
+    <ClInclude Include="p2DynArray.h">
+      <Filter>Programacio II</Filter>
+    </ClInclude>
+    <ClInclude Include="p2List.h">
+      <Filter>Programacio II</Filter>
+    </ClInclude>
+    <ClInclude Include="p2Log.h">
+      <Filter>Programacio II</Filter>
+    </ClInclude>
+    <ClInclude Include="p2PerfTimer.h">
+      <Filter>Programacio II</Filter>
+    </ClInclude>
+    <ClInclude Include="p2Point.h">
+      <Filter>Programacio II</Filter>
+    </ClInclude>
+    <ClInclude Include="p2Qeue.h">
+      <Filter>Programacio II</Filter>
+    </ClInclude>
+    <ClInclude Include="p2Qeue2.h">
+      <Filter>Programacio II</Filter>
+    </ClInclude>
+    <ClInclude Include="p2RefBool.h">
+      <Filter>Programacio II</Filter>
+    </ClInclude>
+    <ClInclude Include="p2SString.h">
+      <Filter>Programacio II</Filter>
+    </ClInclude>
+    <ClInclude Include="p2Stack.h">
+      <Filter>Programacio II</Filter>
+    </ClInclude>
+    <ClInclude Include="p2Stack2.h">
+      <Filter>Programacio II</Filter>
+    </ClInclude>
+    <ClInclude Include="p2String.h">
+      <Filter>Programacio II</Filter>
+    </ClInclude>
+    <ClInclude Include="p2Tree.h">
+      <Filter>Programacio II</Filter>
+    </ClInclude>
+    <ClInclude Include="p2Vector2.h">
+      <Filter>Programacio II</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

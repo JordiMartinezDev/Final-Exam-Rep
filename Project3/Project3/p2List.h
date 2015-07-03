@@ -59,6 +59,13 @@ public:
 		clear();
 	}
 
+
+	void InsertAfter(uint InsertPos, const p2List<tdata>& list)
+	{
+
+	}
+
+
 	/**
 	* Get Size
 	*/

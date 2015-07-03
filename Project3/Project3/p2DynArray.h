@@ -38,6 +38,20 @@ public:
 	}
 
 	// Operators
+
+	const p2DynArray<VALUE>& operator+= (const p2DynArray<VALUE>& array)
+	{
+		if (num_elements + array.num_elements > mem_capacity)
+			Alloc(num_elements + array.num_elements);
+
+		for (uint i = 0; i < array.num_elements; i++)
+		{
+			data[num_elements++] = array.data[i];
+		}
+		return(*this);
+	}
+
+
 	VALUE& operator[](unsigned int index)
 	{
 		ASSERT(index < num_elements);

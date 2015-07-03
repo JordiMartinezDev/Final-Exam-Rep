@@ -66,6 +66,28 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="p2Log.cpp" />
+    <ClCompile Include="p2String.cpp" />
+    <ClCompile Include="p2Vector2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="p2Assert.h" />
+    <ClInclude Include="p2Circle.h" />
+    <ClInclude Include="p2Defs.h" />
+    <ClInclude Include="p2DynArray.h" />
+    <ClInclude Include="p2List.h" />
+    <ClInclude Include="p2Log.h" />
+    <ClInclude Include="p2PerfTimer.h" />
+    <ClInclude Include="p2Point.h" />
+    <ClInclude Include="p2Qeue.h" />
+    <ClInclude Include="p2Qeue2.h" />
+    <ClInclude Include="p2RefBool.h" />
+    <ClInclude Include="p2SString.h" />
+    <ClInclude Include="p2Stack.h" />
+    <ClInclude Include="p2Stack2.h" />
+    <ClInclude Include="p2String.h" />
+    <ClInclude Include="p2Tree.h" />
+    <ClInclude Include="p2Vector2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
