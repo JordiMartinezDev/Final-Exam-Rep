@@ -180,8 +180,9 @@ public:
 	}
 
 	// Utils
-	bool Cut(unsigned int begin, unsigned int end = 0)
+	bool Cut(unsigned int begin, unsigned int end)
 	{
+	
 		uint len = Length();
 		if (end >= len || end == 0)
 			end = len - 1;
@@ -191,6 +192,8 @@ public:
 		char* p2 = str + end + 1;
 		while (*p1++ = *p2++);
 		return true;
+
+		
 	}
 
 	unsigned int Length() const

@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <iostream>
-
+//#include "p2SString.h"
 #define __P2ASSERT_H__
 
 #include "../Project3/p2SString.h"
@@ -18,18 +18,7 @@
 
 int main(int argc, char** argv)
 {
-	p2SString s1("Hola mundo");
-	printf(" %c ", s1);
 	
-	s1.Cut(2, 5);
-
-	printf(" %c ", s1);
-	
-
-	s1.Cut(3, 0);
-
-	printf(" %c ", s1);
-
 	system("PAUSE");
 	return 0;
 

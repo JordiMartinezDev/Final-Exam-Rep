@@ -68,7 +68,7 @@ public:
 		while (p_other_list != NULL)
 		{
 			p2List_item<tdata>* p_new_item = new p2List_item<tdata>(p_other_list->data);
-			p_new_item->next = (p_my_list) ? p_my_list->next : NULL;
+			p_new_item->next = (p_my_list != NULL) ? p_my_list->next : NULL;
 			if (p_new_item->next != NULL)
 				p_new_item->next->prev = p_new_item;
 			else
